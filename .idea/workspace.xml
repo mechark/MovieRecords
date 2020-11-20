@@ -11,8 +11,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a621336f-bc1d-4135-8391-2bfdab36a0bb" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/commandlinetools/Laravel_28_10_2020__9_58.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/movies/basterds.mp4" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -218,9 +218,9 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="PHPUnit.phpunit.xml" />
       <item itemvalue="PHP Script.p.php" />
       <item itemvalue="PHP Script.parser.php" />
-      <item itemvalue="PHPUnit.phpunit.xml" />
     </list>
     <recent_temporary>
       <list>
