@@ -1,17 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="BranchesTreeState">
-    <expand>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-    </expand>
+    <expand />
     <select />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a621336f-bc1d-4135-8391-2bfdab36a0bb" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/lang/parsers/parser.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/lang/parsers/parser.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -217,9 +213,9 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="PHPUnit.phpunit.xml" />
       <item itemvalue="PHP Script.p.php" />
       <item itemvalue="PHP Script.parser.php" />
+      <item itemvalue="PHPUnit.phpunit.xml" />
     </list>
     <recent_temporary>
       <list>
@@ -240,33 +236,6 @@
       <workItem from="1603476491695" duration="4052000" />
       <workItem from="1603538374406" duration="6336000" />
       <workItem from="1603655428025" duration="584000" />
-      <workItem from="1603713113460" duration="648000" />
-      <workItem from="1603736207822" duration="2536000" />
-      <workItem from="1603778758180" duration="1200000" />
-      <workItem from="1603812105167" duration="10549000" />
-      <workItem from="1603868338328" duration="3150000" />
-      <workItem from="1603885784344" duration="20000" />
-      <workItem from="1603885823008" duration="52461000" />
-      <workItem from="1604252390933" duration="19719000" />
-      <workItem from="1604403005927" duration="1779000" />
-      <workItem from="1604422073202" duration="5651000" />
-      <workItem from="1604515747338" duration="89000" />
-      <workItem from="1604515848345" duration="3843000" />
-      <workItem from="1604519873791" duration="1445000" />
-      <workItem from="1604667590023" duration="38000" />
-      <workItem from="1604667692047" duration="7687000" />
-      <workItem from="1604827712695" duration="6937000" />
-      <workItem from="1604957445191" duration="3578000" />
-      <workItem from="1604961076503" duration="404000" />
-      <workItem from="1605027510265" duration="851000" />
-      <workItem from="1605028379866" duration="2173000" />
-      <workItem from="1605117704659" duration="1729000" />
-      <workItem from="1605204264401" duration="2141000" />
-      <workItem from="1605287103192" duration="882000" />
-      <workItem from="1605288009799" duration="5267000" />
-      <workItem from="1605347264713" duration="265000" />
-      <workItem from="1605466190908" duration="17844000" />
-      <workItem from="1605621168956" duration="19157000" />
     </task>
     <servers />
   </component>
@@ -285,22 +254,19 @@
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
-  <component name="VcsManagerConfiguration">
-    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-  </component>
   <component name="WindowStateProjectService">
-    <state x="349" y="86" key="#CLI_Interpreters" timestamp="1603829961152">
+    <state x="349" y="86" key="#CLI_Interpreters" timestamp="1605945946988">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="349" y="86" key="#CLI_Interpreters/0.0.1536.864@0.0.1536.864" timestamp="1603829961152" />
+    <state x="349" y="86" key="#CLI_Interpreters/0.0.1536.864@0.0.1536.864" timestamp="1605945946988" />
     <state x="399" y="121" key="#Inspections" timestamp="1604422538787">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="399" y="121" key="#Inspections/0.0.1536.864@0.0.1536.864" timestamp="1604422538787" />
-    <state x="475" y="75" key="#PHP" timestamp="1603829963726">
+    <state x="475" y="75" key="#PHP" timestamp="1605945950558">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="475" y="75" key="#PHP/0.0.1536.864@0.0.1536.864" timestamp="1603829963726" />
+    <state x="475" y="75" key="#PHP/0.0.1536.864@0.0.1536.864" timestamp="1605945950558" />
     <state x="223" y="87" width="1089" height="751" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1604398186826">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
@@ -326,22 +292,22 @@
     </state>
     <state x="463" y="126" key="FileChooserDialogImpl/0.0.1366.768@0.0.1366.768" timestamp="1603541901691" />
     <state x="521" y="142" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1605347529330" />
-    <state width="1493" height="223" key="GridCell.Tab.0.bottom" timestamp="1605817262328">
+    <state width="1493" height="223" key="GridCell.Tab.0.bottom" timestamp="1606149925618">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="223" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1605817262328" />
-    <state width="1493" height="223" key="GridCell.Tab.0.center" timestamp="1605817262328">
+    <state width="1493" height="223" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1606149925618" />
+    <state width="1493" height="223" key="GridCell.Tab.0.center" timestamp="1606149925618">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="223" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1605817262328" />
-    <state width="1493" height="223" key="GridCell.Tab.0.left" timestamp="1605817262327">
+    <state width="1493" height="223" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1606149925618" />
+    <state width="1493" height="223" key="GridCell.Tab.0.left" timestamp="1606149925618">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="223" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1605817262327" />
-    <state width="1493" height="223" key="GridCell.Tab.0.right" timestamp="1605817262328">
+    <state width="1493" height="223" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1606149925618" />
+    <state width="1493" height="223" key="GridCell.Tab.0.right" timestamp="1606149925618">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="223" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1605817262328" />
+    <state width="1493" height="223" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1606149925618" />
     <state x="513" y="107" key="NewPhpClassDialog" timestamp="1603573174785">
       <screen x="0" y="0" width="1366" height="768" />
     </state>

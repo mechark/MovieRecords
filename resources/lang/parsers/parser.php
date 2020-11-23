@@ -5,7 +5,7 @@ use PHPHtmlParser\Dom;
 use \PHPHtmlParser\Options;
 
 //---------------------------------------------------------
-ini_set('memory_limit', '-1');
+/*ini_set('memory_limit', '-1');
 
 $page = file_get_html('https://kinogo.by/');
 
@@ -54,10 +54,10 @@ function parserMovie($url)
     curl_setopt ($ch, CURLOPT_FOLLOWLOCATION, 1);
     curl_setopt($ch, CURLOPT_HEADEROPT, true);
     $exec = curl_exec($ch);
-    $str = file_get_html($exec);
+    $html = file_get_html($exec);
 
     $dom = new Dom;
-    $dom->loadFromUrl($str);
+    $dom->loadFromUrl($html);
     $URIToMovie = $dom->find('.styles_originalTitle__31aMS')->text;
     $title = $dom->find('.styles_title__2l0HH')->text;
     $year = $dom->find('.styles_linkDark__3aytH styles_link__1N3S2')->text;
@@ -102,3 +102,30 @@ function parserMovie($url)
 ///fsdfsdfsdfsdf
 
 }
+*/
+$dom = new Dom;
+$dom->loadFromFile('kinopoisk.html');
+
+$aResult = [
+    0 => [],
+    1 => [],
+    2 => [],
+    3 => [],
+    4 => [],
+    5 => [],
+    6 => [],
+    7 => [],
+    8 => [],
+    9 => [],
+];
+for ($i = 0; $i < 10; $i++)
+{
+    $a = $dom->find('.styles_rowDark__2qC4I.styles_row__2ee6F')[$i]->lastChild();
+    foreach ($a->find('a') as $a)
+    {
+        array_push($aResult[$i],$a->text);
+    }
+}
+
+print_r($aResult);
+
