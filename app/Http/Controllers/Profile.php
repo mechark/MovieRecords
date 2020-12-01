@@ -9,10 +9,14 @@ use Illuminate\Support\Facades\Auth;
 class Profile extends Controller
 {
     public function profile() {
-        $name = Auth::user()->name;
-        return view('profile',[
-            'name'=>$name,
-        ]);
+        if (Auth::check())
+        {
+            $name = Auth::user()->name;
+            return view('profile',[
+                'name'=>$name,
+            ]);
+        }
+
 
     }
 }

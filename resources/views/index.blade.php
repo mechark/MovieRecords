@@ -26,7 +26,7 @@
                  </div>
              </a>
              <div class="main__card-content">
-                 <a href="{{ $film->url }}">
+                 <a href="{{ 'movie/' . $film->url }}">
                      <div class="main__card-preview">
                          <img src="{{ $film->cover }}" alt="" style="max-width: 100%;height: auto;">
                      </div>
@@ -38,7 +38,7 @@
                         <li>Год: {{ $film->year }}</li>
                         <li>Режиссер: {{ $film->director }}</li>
                         <li>IMDB: {{ $film->IMDB }}</li>
-                         <li>Кинопоиск {{ $film->Kinopoisk }}</li>
+                         <li>Кинопоиск: {{ $film->Kinopoisk }}</li>
                         <li>Бюджет: {{ $film->budget }}$</li>
                         <li>Сборы: {{ $film->fees }}$</li>
                          <li>В ролях: {{ $film->actors }}</li>

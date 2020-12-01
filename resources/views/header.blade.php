@@ -33,7 +33,7 @@
 
                 <li><a href="">Избранное</a></li>
                 <li><a href="">Рекомендации</a></li>
-                <li><a href="">Новости</a></li>
+                <li><a href="">Выход</a></li>
             </ul>
         </div>
     </nav>

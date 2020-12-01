@@ -31,7 +31,7 @@
                     <li>Год: {{ $url[0]->year }}</li>
                     <li>Режиссер: {{ $url[0]->director }}</li>
                     <li>IMDB: {{ $url[0]->IMDB }}</li>
-                    <li>Кинопоиск {{ $url[0]->Kinopoisk }}</li>
+                    <li>Кинопоиск: {{ $url[0]->Kinopoisk }}</li>
                     <li>Бюджет: {{ $url[0]->budget }}$</li>
                     <li>Сборы: {{ $url[0]->fees }}$</li>
                     <li>В ролях: {{ $url[0]->actors }}</li>
@@ -46,7 +46,7 @@
 
             <video id="player" controls>
 
-                <source src="{{ url('movies/basterds.mp4') }}" type="video/mp4">
+                <source src="https://cdn1.kinogo.la/movies/66b4793b21360f53443c6ad6657b044acac5702a/2efabc42124cd091aa2e7e886c359ee1:2020113015/720.mp4" type="video/mp4">
 
             </video>
 
@@ -58,9 +58,6 @@
         <script>
             const player = new Plyr('#player');
         </script>
-    <footer class="footer" >
-        MovieRecords
-    </footer>
 
 @endsection
 

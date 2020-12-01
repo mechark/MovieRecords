@@ -6,8 +6,83 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a621336f-bc1d-4135-8391-2bfdab36a0bb" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/resources/lang/parsers/Parser1.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Profile.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Profile.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Movie.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Movie.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/app.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/header.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/header.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/lang/parsers/Grey.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/lang/parsers/Grey_files/100x64_3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/lang/parsers/Grey_files/11eb93627cccaf1f63d475f4360d8a15b5134e7c.5248f8c8987407991d20.js.Без названия" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/lang/parsers/Grey_files/300x450" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/lang/parsers/Grey_files/41faa4cb3586ceff7ce8bea41fdc9082b850b6da.e9d4e6a81233f5a67e25.js.Без названия" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/lang/parsers/Grey_files/525eaa8ea16a0038c08a.js.Без названия" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/lang/parsers/Grey_files/6394d059bf96cc5f6595.js.Без названия" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/lang/parsers/Grey_files/80x80" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/lang/parsers/Grey_files/80x80(1)" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/lang/parsers/Grey_files/80x80(2)" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/lang/parsers/Grey_files/80x80(3)" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/lang/parsers/Grey_files/80x80(4)" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/lang/parsers/Grey_files/80x80(5)" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/lang/parsers/Grey_files/80x80(6)" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/lang/parsers/Grey_files/95142d9e40ece39afad6.js.Без названия" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/lang/parsers/Grey_files/_app.js.Без названия" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/lang/parsers/Grey_files/_buildManifest.js.Без названия" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/lang/parsers/Grey_files/_ssgManifest.js.Без названия" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/lang/parsers/Grey_files/a29ae703.52deeccb3fb7f556c129.js.Без названия" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/lang/parsers/Grey_files/adf4b564adf546c6396c.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/lang/parsers/Grey_files/apple-69990d80fd3aed985c365ea13bde2713.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/lang/parsers/Grey_files/banners.js.Без названия" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/lang/parsers/Grey_files/bb09c3cb1381a0c2dbc3f7d43ebc703905d4a0be.11b2fc4c40e279dd52f3.js.Без названия" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/lang/parsers/Grey_files/c3878910f86c8b94e533.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/lang/parsers/Grey_files/c71e5679981e8dd90163.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/lang/parsers/Grey_files/ce4b5530be706ecd54f864dab3919278dd9e5075.7074cb16b3a53f7f0891.js.Без названия" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/lang/parsers/Grey_files/commons.9ebcbb36ba93c5e0719b.js.Без названия" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/lang/parsers/Grey_files/context.js.Без названия" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/lang/parsers/Grey_files/df19525e08c0119e442f033e493faf1767f0a855.a9c5fae243aa94d7bbe9.js.Без названия" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/lang/parsers/Grey_files/df19525e08c0119e442f033e493faf1767f0a855_CSS.61d32cca92e8a9b2460f.js.Без названия" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/lang/parsers/Grey_files/f0fec7dc1b4c80f40382.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/lang/parsers/Grey_files/fc893159025316346bd44a0a46c3d051e0772733.be0d5ba10b235cbece16.js.Без названия" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/lang/parsers/Grey_files/fc893159025316346bd44a0a46c3d051e0772733_CSS.c4a6afef92e8dd991da1.js.Без названия" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/lang/parsers/Grey_files/film.js.Без названия" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/lang/parsers/Grey_files/framework.a133aea0944cb9492ec0.js.Без названия" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/lang/parsers/Grey_files/host.js.Без названия" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/lang/parsers/Grey_files/huawei-c812a0f89c572007cad43322935cc96e.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/lang/parsers/Grey_files/kp-mda.min.js.Без названия" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/lang/parsers/Grey_files/loader.js(1).Без названия" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/lang/parsers/Grey_files/loader.js.Без названия" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/lang/parsers/Grey_files/main-23fbed4194bd27ac684c.js.Без названия" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/lang/parsers/Grey_files/mda2.1.min.js.Без названия" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/lang/parsers/Grey_files/media-banner.js.Без названия" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/lang/parsers/Grey_files/nearest.js.Без названия" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/lang/parsers/Grey_files/orig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/lang/parsers/Grey_files/polyfills-fb5202cb747b59d2a4c3.js.Без названия" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/lang/parsers/Grey_files/react-with-dom.min.js.Без названия" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/lang/parsers/Grey_files/render(1).html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/lang/parsers/Grey_files/render.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/lang/parsers/Grey_files/saved_resource(1).html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/lang/parsers/Grey_files/saved_resource.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/lang/parsers/Grey_files/sdk-loader.min.js.Без названия" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/lang/parsers/Grey_files/sdk.min.js.Без названия" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/lang/parsers/Grey_files/share.js.Без названия" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/lang/parsers/Grey_files/svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/lang/parsers/Grey_files/svg(1)" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/lang/parsers/Grey_files/svg(2)" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/lang/parsers/Grey_files/svg(3)" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/lang/parsers/Grey_files/tag.js.Без названия" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/lang/parsers/Grey_files/watch.js.Без названия" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/lang/parsers/Grey_files/webpack-8040a6b99bed3f0c29b5.js.Без названия" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/lang/parsers/kinopoisk.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/lang/parsers/parser.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/lang/parsers/parser.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/header.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/header.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/movie.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/movie.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack.mix.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.mix.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -206,6 +281,9 @@
       <TestRunner scope="XML" />
       <method v="2" />
     </configuration>
+    <configuration name="Parser1.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/resources/lang/parsers/Parser1.php">
+      <method v="2" />
+    </configuration>
     <configuration name="p.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
       <method v="2" />
     </configuration>
@@ -216,10 +294,12 @@
       <item itemvalue="PHP Script.p.php" />
       <item itemvalue="PHP Script.parser.php" />
       <item itemvalue="PHPUnit.phpunit.xml" />
+      <item itemvalue="PHP Script.Parser1.php" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="PHP Script.parser.php" />
+        <item itemvalue="PHP Script.Parser1.php" />
       </list>
     </recent_temporary>
   </component>
@@ -236,6 +316,8 @@
       <workItem from="1603476491695" duration="4052000" />
       <workItem from="1603538374406" duration="6336000" />
       <workItem from="1603655428025" duration="584000" />
+      <workItem from="1606331624185" duration="2143000" />
+      <workItem from="1606388442544" duration="35118000" />
     </task>
     <servers />
   </component>
@@ -292,31 +374,32 @@
     </state>
     <state x="463" y="126" key="FileChooserDialogImpl/0.0.1366.768@0.0.1366.768" timestamp="1603541901691" />
     <state x="521" y="142" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1605347529330" />
-    <state width="1493" height="223" key="GridCell.Tab.0.bottom" timestamp="1606149925618">
+    <state width="1493" height="218" key="GridCell.Tab.0.bottom" timestamp="1606851702357">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="223" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1606149925618" />
-    <state width="1493" height="223" key="GridCell.Tab.0.center" timestamp="1606149925618">
+    <state width="1493" height="218" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1606851702357" />
+    <state width="1493" height="218" key="GridCell.Tab.0.center" timestamp="1606851702357">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="223" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1606149925618" />
-    <state width="1493" height="223" key="GridCell.Tab.0.left" timestamp="1606149925618">
+    <state width="1493" height="218" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1606851702357" />
+    <state width="1493" height="218" key="GridCell.Tab.0.left" timestamp="1606851702357">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="223" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1606149925618" />
-    <state width="1493" height="223" key="GridCell.Tab.0.right" timestamp="1606149925618">
+    <state width="1493" height="218" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1606851702357" />
+    <state width="1493" height="218" key="GridCell.Tab.0.right" timestamp="1606851702357">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="223" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1606149925618" />
-    <state x="513" y="107" key="NewPhpClassDialog" timestamp="1603573174785">
-      <screen x="0" y="0" width="1366" height="768" />
+    <state width="1493" height="218" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1606851702357" />
+    <state x="577" y="120" key="NewPhpClassDialog" timestamp="1606761120107">
+      <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="513" y="107" key="NewPhpClassDialog/0.0.1366.768@0.0.1366.768" timestamp="1603573174784" />
-    <state x="581" y="345" key="NewPhpFileDialog" timestamp="1605552858423">
+    <state x="577" y="120" key="NewPhpClassDialog/0.0.1536.864@0.0.1536.864" timestamp="1606761120107" />
+    <state x="581" y="345" key="NewPhpFileDialog" timestamp="1606331726461">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="517" y="307" key="NewPhpFileDialog/0.0.1366.768@0.0.1366.768" timestamp="1603573210130" />
-    <state x="581" y="345" key="NewPhpFileDialog/0.0.1536.864@0.0.1536.864" timestamp="1605552858423" />
+    <state x="581" y="345" key="NewPhpFileDialog/0.0.1536.864@0.0.1536.864" timestamp="1606331726461" />
     <state x="277" y="77" key="SettingsEditor" timestamp="1605895374664">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
@@ -329,6 +412,10 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="-40" y="82" width="1507" height="853" key="dock-window-1/0.0.1536.864@0.0.1536.864" timestamp="1605551953134" />
+    <state x="425" y="197" key="run.anything.popup" timestamp="1606761496036">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="425" y="197" key="run.anything.popup/0.0.1536.864@0.0.1536.864" timestamp="1606761496036" />
     <state x="431" y="181" width="672" height="678" key="search.everywhere.popup" timestamp="1605544021854">
       <screen x="0" y="0" width="1536" height="864" />
     </state>

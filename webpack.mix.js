@@ -16,4 +16,9 @@ mix.js('resources/js/app.js', 'public/js')
         require('postcss-import'),
         require('tailwindcss'),
     ])
+
     .webpackConfig(require('./webpack.config'));
+
+mix.browserSync({
+    proxy: "http://192.168.1.102:3000"
+});
