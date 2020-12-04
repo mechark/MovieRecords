@@ -34,7 +34,7 @@
 
                  <div class="main__card-info">
                      <ul>
-                        <li>Жанры: {{ $film->genre }}</li>
+                        <li><strong>Жанры:</strong> {{ $film->genre }}</li>
                         <li>Год: {{ $film->year }}</li>
                         <li>Режиссер: {{ $film->director }}</li>
                         <li>IMDB: {{ $film->IMDB }}</li>

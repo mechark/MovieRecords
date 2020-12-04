@@ -1,6 +1,6 @@
 <?php
 require_once('../../../vendor/autoload.php');
-require_once ('parserlib/simple_html_dom.php');
+require_once('parserlib/simple_html_dom.php');
 use PHPHtmlParser\Dom;
 use \PHPHtmlParser\Options;
 use App\Models\Movie;
@@ -9,7 +9,7 @@ class Parser
 {
 
 
-    public function getHtml(Parser $mainPageURI)
+    public function getHtml($mainPageURI)
     {
         $page = file_get_html($mainPageURI);
 
@@ -22,6 +22,11 @@ class Parser
         return $urls;
     }
 
+
+    public function sprint(string $words)
+    {
+        return $words;
+    }
 
     public function parserMovie($url)
     {
@@ -49,12 +54,12 @@ class Parser
 
     public function getInfo()
     {
-
+        $moviePages = $this->getHtml('https://kinogo.la/film/premie/');
         // Переадресация с киного на кинопоиск для получения сраницы с каждым фильмом
-        for ($i = 0; $i != count($this->getInfo('https://kinogo.la')); $i++) {
+        for ($i = 0; $i <= count($moviePages); $i++) {
 
 
-            foreach ($this->getHtml('https://kinogo.la')[$i] as $movieUrl) {
+            foreach ($moviePages[$i] as $movieUrl) {
 
                 $page = file_get_html($movieUrl);
                 array_push($quality, $page->find('h1')[0]->plaintext);
@@ -76,16 +81,20 @@ class Parser
 
         // Получение подробной информации о фильме
         $dom = new Dom;
-        for ($i = 0; $i < 13; $i++)
+        $dom->loadFromFile($exec);
+        for ($i = 0; $i < count($moviePages); $i++)
         {
+            $tableRows = [
+                'id','url','cover','name','genre','year','director',
+                'director','IMDB','Kinopoisk','budget',
+                'fees','actors','description'
+            ];
             $a = $dom->find('.styles_rowDark__2qC4I.styles_row__2ee6F')[$i]->lastChild();
             foreach ($a->find('a') as $a)
             {
-                Movie::upsert([
-
-
-
-                ]);
+                $movie = new Movie;
+                $movie->$tableRows[$i];
+                $movie->save();
             }
         }
 
@@ -94,3 +103,5 @@ class Parser
 }
 
 
+$parser = new Parser;
+print_r($parser->getHtml('https://kinogo.la/film/premie/'));

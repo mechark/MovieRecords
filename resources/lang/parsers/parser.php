@@ -150,7 +150,8 @@ for ($i = 0; $i < 13; $i++)
     }
 }
 $movie = new Movie();
-$movie->year = $aResult[0];
+$movie->year = $aResult[0][0];
+$movie->save();
 
 print_r($aResult);
 //

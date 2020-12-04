@@ -6,6 +6,7 @@ use App\Http\Controllers\SiteController;
 use App\Http\Controllers\Profile;
 use App\Models\User;
 use App\Http\Controllers\Header;
+use App\Http\Controllers\MovieController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -20,6 +21,7 @@ use App\Http\Controllers\Header;
 Route::get('/', [SiteController::class, 'index']);
 Route::get('/{name}',[Profile::class, 'profile']);
 Route::get('/movie/{url}', [SiteController::class, 'movie']);
+Route::get('/movie/{url}', [MovieController::class, 'addMovie']);
 
 
 Route::get('/email/verify', function () {
