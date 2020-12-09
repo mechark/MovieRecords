@@ -23,10 +23,6 @@ class Parser
     }
 
 
-    public function sprint(string $words)
-    {
-        return $words;
-    }
 
     public function parserMovie($url)
     {
@@ -55,53 +51,84 @@ class Parser
     public function getInfo()
     {
         $moviePages = $this->getHtml('https://kinogo.la/film/premie/');
+        $dom = new Dom;
+        $tableRows = [
+            'id','url','cover','name','genre','year','director',
+            'director','IMDB','Kinopoisk','budget',
+            'fees','actors','description'
+        ];
         // Переадресация с киного на кинопоиск для получения сраницы с каждым фильмом
-        for ($i = 0; $i <= count($moviePages); $i++) {
+//        for ($i = 0; $i <= count($moviePages); $i++) {
 
 
-            foreach ($moviePages[$i] as $movieUrl) {
+            foreach ($moviePages as $movieUrl) {
 
                 $page = file_get_html($movieUrl);
+                $quality = [];
                 array_push($quality, $page->find('h1')[0]->plaintext);
-                $nameOfTheMovie = explode(" ", $quality[5]);
-                $kinogoSearch = "https://www.kinopoisk.ru/index.php?kp_query=" . $nameOfTheMovie[2] . "+" . $nameOfTheMovie[3];
+                $nameOfTheMovie = explode(" ", $quality[0]);
+                $kinogoSearch = "https://www.kinopoisk.ru/index.php?kp_query=" . $nameOfTheMovie[2];
                 $kinogoPage = file_get_html($kinogoSearch);
-                $kinogoName = 'https://www.kinopoisk.ru' . $kinogoPage->find('.name a')[0]->href;
+                $kinogoName = 'https://www.kinopoisk.ru/' . $kinogoSearch->find('.name a')[0]->href;
                 $ch = curl_init($kinogoName);
                 curl_setopt($ch, CURLOPT_FOLLOWLOCATION, 1);
                 curl_setopt($ch, CURLOPT_HEADEROPT, true);
                 $exec = curl_exec($ch);
                 curl_close($ch);
+                return $kinogoName;
+                // Получение подробной информации о фильме
+                $dom->loadFromUrl($exec);
+                for ($j = 0; $j <= count($moviePages); $j++)
+                {
+                    $a = $dom->find('.styles_rowDark__2qC4I.styles_row__2ee6F')[$j]->lastChild();
+                    foreach ($a->find('a') as $a)
+                    {
+                        $movie = new Movie;
+                        $movie->$tableRows[$j] = $a;
+                        $movie->save();
+                    }
+                }
 
             }
 
 
-        }
+//        }
 
 
-        // Получение подробной информации о фильме
-        $dom = new Dom;
-        $dom->loadFromFile($exec);
-        for ($i = 0; $i < count($moviePages); $i++)
-        {
-            $tableRows = [
-                'id','url','cover','name','genre','year','director',
-                'director','IMDB','Kinopoisk','budget',
-                'fees','actors','description'
-            ];
-            $a = $dom->find('.styles_rowDark__2qC4I.styles_row__2ee6F')[$i]->lastChild();
-            foreach ($a->find('a') as $a)
-            {
-                $movie = new Movie;
-                $movie->$tableRows[$i];
-                $movie->save();
-            }
-        }
+
 
     }
 
 }
 
-
 $parser = new Parser;
-print_r($parser->getHtml('https://kinogo.la/film/premie/'));
+$urls = $parser->getHtml('https://kinogo.la/film/premie/');
+
+foreach ($urls as $url)
+{
+    $page = file_get_html($url);
+    $quality = [];
+    array_push($quality, $page->find('h1')[0]->plaintext);
+    $nameOfTheMovie = explode(" ", $quality[0]);
+    $kinogoSearch = "https://www.kinopoisk.ru/index.php?kp_query=" . $nameOfTheMovie[2];
+    $dom = new Dom;
+    $dom->loadFromUrl($kinogoSearch);
+    $kinogoName = 'https://www.kinopoisk.ru/' . $dom->find('.name a')[0]->href;
+    $ch = curl_init($kinogoName);
+    $agent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36";
+    curl_setopt($ch, CURLOPT_FOLLOWLOCATION, 1);
+    curl_setopt($ch, CURLOPT_REFERER, 'https://www.kinogo.ru');
+    curl_setopt($ch, CURLOPT_FRESH_CONNECT, true);
+    curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+    curl_setopt($ch, CURLOPT_COOKIESESSION, true);
+    curl_setopt($ch, CURLINFO_HEADER_OUT, true);
+    curl_setopt($ch, CURLOPT_USERAGENT, $agent);
+    curl_setopt($ch, CURLOPT_HEADEROPT, true);
+
+    $exec = curl_exec($ch);
+
+
+    print_r(curl_getinfo($ch,CURLINFO_HEADER_OUT));
+    print_r($exec);
+    curl_close($ch);
+}
