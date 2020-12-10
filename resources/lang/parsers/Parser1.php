@@ -68,26 +68,34 @@ class Parser
                 array_push($quality, $page->find('h1')[0]->plaintext);
                 $nameOfTheMovie = explode(" ", $quality[0]);
                 $kinogoSearch = "https://www.kinopoisk.ru/index.php?kp_query=" . $nameOfTheMovie[2];
-                $kinogoPage = file_get_html($kinogoSearch);
-                $kinogoName = 'https://www.kinopoisk.ru/' . $kinogoSearch->find('.name a')[0]->href;
+                $dom = new Dom;
+                $dom->loadFromUrl($kinogoSearch);
+                $kinogoName = 'https://www.kinopoisk.ru/' . $dom->find('.name a')[0]->href;
                 $ch = curl_init($kinogoName);
+                $headers = [
+                    'accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+                    'accept-language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7',
+                    'cache-control: max-age=0',
+                    'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36',
+
+                ];
                 curl_setopt($ch, CURLOPT_FOLLOWLOCATION, 1);
+                curl_setopt($ch, CURLOPT_HTTPHEADER, $headers);
+                curl_setopt($ch, CURLOPT_REFERER, 'https://www.rambler.ru/');
+                curl_setopt($ch, CURLOPT_COOKIEJAR, 'cookies/cookie_'.$_SESSION['USER_ID'].'.txt');
+                curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+                curl_setopt($ch, CURLOPT_COOKIESESSION, true);
+                curl_setopt($ch, CURLINFO_HEADER_OUT, true);
                 curl_setopt($ch, CURLOPT_HEADEROPT, true);
+
                 $exec = curl_exec($ch);
+
+
+                print_r(curl_getinfo($ch,CURLINFO_HEADER_OUT));
+                print_r($exec);
                 curl_close($ch);
-                return $kinogoName;
-                // Получение подробной информации о фильме
-                $dom->loadFromUrl($exec);
-                for ($j = 0; $j <= count($moviePages); $j++)
-                {
-                    $a = $dom->find('.styles_rowDark__2qC4I.styles_row__2ee6F')[$j]->lastChild();
-                    foreach ($a->find('a') as $a)
-                    {
-                        $movie = new Movie;
-                        $movie->$tableRows[$j] = $a;
-                        $movie->save();
-                    }
-                }
+
+                sleep(rand(4,10));
 
             }
 
@@ -102,33 +110,4 @@ class Parser
 }
 
 $parser = new Parser;
-$urls = $parser->getHtml('https://kinogo.la/film/premie/');
-
-foreach ($urls as $url)
-{
-    $page = file_get_html($url);
-    $quality = [];
-    array_push($quality, $page->find('h1')[0]->plaintext);
-    $nameOfTheMovie = explode(" ", $quality[0]);
-    $kinogoSearch = "https://www.kinopoisk.ru/index.php?kp_query=" . $nameOfTheMovie[2];
-    $dom = new Dom;
-    $dom->loadFromUrl($kinogoSearch);
-    $kinogoName = 'https://www.kinopoisk.ru/' . $dom->find('.name a')[0]->href;
-    $ch = curl_init($kinogoName);
-    $agent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36";
-    curl_setopt($ch, CURLOPT_FOLLOWLOCATION, 1);
-    curl_setopt($ch, CURLOPT_REFERER, 'https://www.kinogo.ru');
-    curl_setopt($ch, CURLOPT_FRESH_CONNECT, true);
-    curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
-    curl_setopt($ch, CURLOPT_COOKIESESSION, true);
-    curl_setopt($ch, CURLINFO_HEADER_OUT, true);
-    curl_setopt($ch, CURLOPT_USERAGENT, $agent);
-    curl_setopt($ch, CURLOPT_HEADEROPT, true);
-
-    $exec = curl_exec($ch);
-
-
-    print_r(curl_getinfo($ch,CURLINFO_HEADER_OUT));
-    print_r($exec);
-    curl_close($ch);
-}
+$parser->getInfo();

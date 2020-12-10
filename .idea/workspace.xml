@@ -7,7 +7,6 @@
   <component name="ChangeListManager">
     <list default="true" id="a621336f-bc1d-4135-8391-2bfdab36a0bb" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/SiteController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/SiteController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/lang/parsers/Parser1.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/lang/parsers/Parser1.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/lang/parsers/parser.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/lang/parsers/parser.php" afterDir="false" />
     </list>
@@ -204,7 +203,7 @@
       <recent name="C:\Shop\shop\public" />
     </key>
   </component>
-  <component name="RunManager" selected="PHP Script.parser.php">
+  <component name="RunManager" selected="PHP Script.Parser1.php">
     <configuration name="phpunit.xml" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
       <TestRunner scope="XML" />
       <method v="2" />
@@ -230,8 +229,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="PHP Script.parser.php" />
         <item itemvalue="PHP Script.Parser1.php" />
+        <item itemvalue="PHP Script.parser.php" />
         <item itemvalue="PHP Script.Parser.php" />
       </list>
     </recent_temporary>
@@ -254,7 +253,7 @@
       <workItem from="1606916486924" duration="4417000" />
       <workItem from="1607089007437" duration="7230000" />
       <workItem from="1607191622508" duration="21851000" />
-      <workItem from="1607535713241" duration="2714000" />
+      <workItem from="1607535713241" duration="6155000" />
     </task>
     <servers />
   </component>
