@@ -17,14 +17,16 @@ class CreateMoviesTable extends Migration
             $table->id();
             $table->text('url');
             $table->text('cover');
+            $table->url('src');
             $table->text('name');
             $table->text('genre');
+            $table->text('country');
             $table->integer('year');
             $table->text('director');
             $table->float('IMDB',2,2);
             $table->float('Kinopoisk',2,2);
-            $table->integer('budget');
-            $table->integer('fees');
+            $table->text('budget');
+            $table->text('fees');
             $table->text('actors');
             $table->text('description');
             $table->timestamps();

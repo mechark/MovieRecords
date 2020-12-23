@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Models\Movie;
 use Illuminate\Support\Facades\Auth;
+use App\Http\Controllers\Parsers\Parser;
 
 class SiteController extends Controller
 {
@@ -34,6 +35,12 @@ class SiteController extends Controller
         return view('header',[
             'name'=>'paul',
         ]);
+    }
+
+    public function getmovie()
+    {
+        $parser = new Parser;
+        $parser->getInfo();
     }
 }
 

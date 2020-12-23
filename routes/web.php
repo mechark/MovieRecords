@@ -19,9 +19,9 @@ use App\Http\Controllers\MovieController;
 */
 
 Route::get('/', [SiteController::class, 'index']);
+Route::get('/getmovie', [SiteController::class, 'getmovie']);
 Route::get('/{name}',[Profile::class, 'profile']);
 Route::get('/movie/{url}', [SiteController::class, 'movie']);
-Route::get('/movie/{url}', [MovieController::class, 'addMovie']);
 
 
 Route::get('/email/verify', function () {
