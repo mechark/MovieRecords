@@ -22,7 +22,8 @@
         "nikic/php-parser": "^4.10",
         "paquettg/php-html-parser": "^3.1",
         "sunra/php-simple-html-dom-parser": "^1.5",
-      "ext-curl": "*"
+      "ext-curl": "*",
+      "ext-zlib": "*"
     },
     "require-dev": {
         "facade/ignition": "^2.3.6",

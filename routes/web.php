@@ -7,6 +7,7 @@ use App\Http\Controllers\Profile;
 use App\Models\User;
 use App\Http\Controllers\Header;
 use App\Http\Controllers\MovieController;
+use Illuminate\Support\Facades\Auth;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -17,7 +18,7 @@ use App\Http\Controllers\MovieController;
 | contains the "web" middleware group. Now create something great!
 |
 */
-
+Auth::routes([]);
 Route::get('/', [SiteController::class, 'index']);
 Route::get('/getmovie', [SiteController::class, 'getmovie']);
 Route::get('/{name}',[Profile::class, 'profile']);
@@ -30,4 +31,3 @@ Route::get('/email/verify', function () {
 
 
 
-Auth::routes(['verify' => true]);

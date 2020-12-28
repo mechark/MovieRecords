@@ -11,12 +11,13 @@ body {
 
 .main__card-content {
     display: flex;
-    margin-top: 2vw;
+    margin-top: 5vw;
+    flex-direction: column;
 }
 
 .main__card-preview {
     max-width: 100%;
-    margin-left: 5vw;
+    /*margin-left: 5vw;*/
 }
 
 .main__card-title {
@@ -37,7 +38,7 @@ body {
 }
 
 .main__card-info {
-    margin-left: 10.5vw;
+    margin-left: 5.5vw;
 }
 
 .main__card-info ul{

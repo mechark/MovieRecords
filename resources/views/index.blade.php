@@ -37,11 +37,11 @@
                         <li><strong>Жанры:</strong> {{ $film->genre }}</li>
                         <li>Год: {{ $film->year }}</li>
                         <li>Режиссер: {{ $film->director }}</li>
-                        <li>IMDB: {{ $film->IMDB }}</li>
-                         <li>Кинопоиск: {{ $film->Kinopoisk }}</li>
-                        <li>Бюджет: {{ $film->budget }}$</li>
-                        <li>Сборы: {{ $film->fees }}$</li>
-                         <li>В ролях: {{ $film->actors }}</li>
+                        <li style="color:red;">IMDB: {{ $film->IMDB }}</li>
+{{--                         <li>Кинопоиск: {{ $film->Kinopoisk }}</li>--}}
+{{--                        <li>Бюджет: {{ $film->budget }}$</li>--}}
+{{--                        <li>Сборы: {{ $film->fees }}$</li>--}}
+{{--                         <li>В ролях: {{ $film->actors }}</li>--}}
                      </ul>
                  </div>
              </div>

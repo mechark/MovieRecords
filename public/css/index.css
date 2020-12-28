@@ -31,7 +31,7 @@ body {
 
 .main__card-content {
     display: flex;
-    margin-top: 2vw;
+    margin-top: 5vw;
 }
 
 .main__card-preview {
@@ -57,6 +57,7 @@ body {
 
 .main__card-info {
     margin-left: 10.5vw;
+    width: 124%;
 }
 
 .main__card-info ul{

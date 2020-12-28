@@ -7,7 +7,7 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>MovieRecords</title>
+    <title>{{ $url[0]->name }}</title>
     <link rel="stylesheet" href="{{ url('css/info.css') }}">
     <link rel="stylesheet" href="{{ url('css/plyr.css') }}">
 </head>
@@ -32,8 +32,10 @@
                     <li>Режиссер: {{ $url[0]->director }}</li>
                     <li>IMDB: {{ $url[0]->IMDB }}</li>
                     <li>Кинопоиск: {{ $url[0]->Kinopoisk }}</li>
+                    @if ($url[0]->budget !== " ")
                     <li>Бюджет: {{ $url[0]->budget }}$</li>
                     <li>Сборы: {{ $url[0]->fees }}$</li>
+                    @endif
                     <li>В ролях: {{ $url[0]->actors }}</li>
                 </ul>
             </div>

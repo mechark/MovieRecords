@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="{{ url('css/header.css') }}">
 </head>
-<body>
+{{--<body class="header">--}}
 <nav class="nav">
 
 
@@ -26,7 +26,7 @@
         <div class="nav__list">
             <form action="">
                 @csrf
-                <input type="search" placeholder="Поиск...">
+                <input type="search" placeholder="Поиск..." class="search">
             </form>
             <span class="nav__list-span"></span>
             <ul>
@@ -40,5 +40,5 @@
     <script src="js/index.js"></script>
     @yield('content')
 
-</body>
+{{--</body>--}}
 

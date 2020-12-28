@@ -6,109 +6,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a621336f-bc1d-4135-8391-2bfdab36a0bb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Parsers/Parser.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Parsers/dovod.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Parsers/kinopoisk.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Parsers/kinopoisk_files/2f2d1efec350c5a74c86.js.Без названия" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Parsers/kinopoisk_files/300x450" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Parsers/kinopoisk_files/48x48" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Parsers/kinopoisk_files/48x48(1)" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Parsers/kinopoisk_files/48x48(2)" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Parsers/kinopoisk_files/48x48(3)" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Parsers/kinopoisk_files/48x48(4)" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Parsers/kinopoisk_files/80x80" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Parsers/kinopoisk_files/80x80(1)" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Parsers/kinopoisk_files/80x80(2)" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Parsers/kinopoisk_files/80x80(3)" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Parsers/kinopoisk_files/80x80(4)" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Parsers/kinopoisk_files/80x80(5)" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Parsers/kinopoisk_files/80x80(6)" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Parsers/kinopoisk_files/80x80(7)" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Parsers/kinopoisk_files/8ad708f35dfc9802e989.js.Без названия" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Parsers/kinopoisk_files/native-transport.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Parsers/kinopoisk_files/saved_resource.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Parsers/kinopoisk_files/svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Parsers/kinopoisk_files/svg(1)" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Parsers/kinopoisk_files/svg(2)" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Parsers/kinopoisk_files/svg(3)" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Parsers/parserlib/simple_html_dom.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Parsers/parsertests.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/auth.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/SiteController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/SiteController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2020_10_19_090241_create_movies_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_10_19_090241_create_movies_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2020_11_13_185710_create_sessions_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_11_13_185710_create_sessions_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/lang/parsers/Parser1.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/lang/parsers/codeTests.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/lang/parsers/cookies/cookie_.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/lang/parsers/kinopoisk.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/lang/parsers/kinopoisk_files/02VTF18z9eO3vPgPzzCRV62sRjsWWDQya_g_fRAPdrp3Ge9cCJwoDRsPLWcCWL5udYu_q9FssiH-Oy8pSBvv7Bwr0tZMc6TntHv5DEh2E1eqqEznApz08-g6-jgV2jc-d5pvXojKPd8KG7rkwN_7J_GLuz5V631s9_GipIdWoWCSJlWXy-CiZHY8PI_Pt1EAKqwDqdPY9vJ" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/lang/parsers/kinopoisk_files/2VTF18z9eO3vPgPzzCRV62sRjsWWDQya_g_fRAPdrp3Ge9cCJwoDRsPLXFSyCg1pg4-e9LpOWH2Mmc1AdJm5tmvn1vBL-3pfbH3RA_3FFes70CrFpu39-ivO7sek-Y7tdguGwlJuJiPmD2ngp-_5HQLO7qXqbyttjUj54fRY6bW4paRTKIipDM9eUmItpPEqmyC7NM.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/lang/parsers/kinopoisk_files/300x450" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/lang/parsers/kinopoisk_files/506ace2adc7cda4e87f9.js.Без названия" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/lang/parsers/kinopoisk_files/71159b7cbd926f092724.js.Без названия" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/lang/parsers/kinopoisk_files/71c6af3525fe72055fc7.js.Без названия" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/lang/parsers/kinopoisk_files/80x80" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/lang/parsers/kinopoisk_files/80x80(1)" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/lang/parsers/kinopoisk_files/80x80(2)" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/lang/parsers/kinopoisk_files/80x80(3)" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/lang/parsers/kinopoisk_files/80x80(4)" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/lang/parsers/kinopoisk_files/80x80(5)" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/lang/parsers/kinopoisk_files/80x80(6)" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/lang/parsers/kinopoisk_files/80x80(7)" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/lang/parsers/kinopoisk_files/ASk8ygYqEke3wLWbSRx68sRTtRGTCg6736LRBecr50Xf8ZTg85G8oYLXFUyG40oNlzLZ2u-X14-mSixtst61_p1tXLoSOgJDv5jcv9HkxmZYzjHhI8eWH5evuC3vR8t1zvnwiNL5oL1rF1DZ3_aD6L8rqZJv7oOvsrJ4JapOzbpNOaSyuu53c2doSJ_pjI6itFaVvbc__q_" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/lang/parsers/kinopoisk_files/ASk8ygYqEke3wLWbSRx68sRTtRGTCg6736LROedbzn3W-cXw5-XY3dreTB33hg8Uzs7MY9qfvlsianl4OkJNc0AwYdtbOlIe3ozp8m0MV6LIN8R84082vva2pFWiOqO0wjkoQHtJFFVfTsy9f-pHAZPfoQa7nt9DeldQdSKmoGbFaXgCtnaHUy84yMPlnIryyO6ZuVsTejv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/lang/parsers/kinopoisk_files/F18z9eW0a7tPybPQwj2phnsS2XQw7G9rqwUJYmknWS0YRMq_HF1c6jLB3Xvy9Uj6PIS8LG53c-hnwFclJtchQEfYIKRk8y9w294jhU0_rcNr0Zj18-ir8X4ACX6rYQz5y1laaItaDOswEMkycDTK-jkEvOn6omAz8hCDcejC9AZHQfRyNKMwaFpZpoRQP3mLvMZJIXt-aK6" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/lang/parsers/kinopoisk_files/F18z9eW0a7tPybPQwj2phnsS2XQw7G9rqwUJYmknWS0YRMq_HF1c6jLB3Xvy9Uj6PIS8LG53c-hnwFclJtchQEfYIKRk8y9w294jhU0_rcNr0Zj18-ir8X4ACX6rYQz5y1laaItaDytwUMkycDTK-jkEvOn6omAz8hCDcejC9AZHQfRyNKMwaFpZpseRP3mLvMZJIXt-aK6" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/lang/parsers/kinopoisk_files/TF18z9eO3vPgPzzCRV62sRjsWmLZyKy__uxLdNT5wSzhO2BmpC51aP-QD3CghNYk8uRd7vq93cSf1w1cmJlckxJENb-ntv7CyxEa4mE5lqMbtARq38Km4vPwVnuW7sdcjjUjOvNzI3Hjhh516IrdJvPzWKbxqtLcmZ8BXI-GXZFEViqCk5HU9PwsL9hTAaC-HapIcNDLufT" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/lang/parsers/kinopoisk_files/TF18z9eW0a7tPybPQwj2phnsS2XQw7G9rqwUJYmknWS0YRMq_HF1c6jLAn2wjsM-7PIK8tb9i-vbyClKgYAXilVAKZCXnszruiw9jhQ2vr0Arg8z8JX_q628F1ae-NN3tChjb6IqdzSo2VYg2dSGb6_AHvGy6_iYydReCs7SC6MMHWPTucePpuQ6dZoAALy8UfscNZDcreW" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/lang/parsers/kinopoisk_files/VTF18z9eEzO-6NSHFSQC3vR-oBHPDg6Phs-8UP9X40zH_JH8y-XR0b-mrOVDMpOgFzshoiNmvztrQkQZTmYdWiE9FaJKNqOCgxDg47WsVjr8nmUZ55O2b9vrOQFTv7sBEu1sSNfNDFEn1pSNC_Z_OLNntVpL1svz3rL8Gdp-PXKx2Vh61m5LWyuU3OtlEF6i2BqxOY-X9od" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/lang/parsers/kinopoisk_files/VTF18z9eO3vPgPzzCRV62sRjsRGTX3qzh6LdPY-fD80KTSh4N2V0TS-2DET_mj9kl7O5Gsvz2y9ihpU9tkId_rFl4Lauim8fS1QwszXEVnIMesW1r-O-j8cXXaX_p2eFzqGw3GvxjCWfwsTxDyI_8I-TkYovvgOzOm5MlTJ-FS4NbXiSKl5Pd08U2CcxLFra_DZRFY9PAut" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/lang/parsers/kinopoisk_files/VTF18z9eO3vPgPzzCRV62sRjsWTKZx6D88-lKecv3n2Wjej8r9XQ-Ku2dAnboksRn6_ZY7vOxys6RjApPj9gJzwwAc9DA2tvp5z0n3UMCofsfp0Ev28WnvPbqek_53fBcnkcYGNlULXLt2g1444nHJfXyRO_lreby3qoJTbC6XLdXZRyMgKX-0vA4H85iJ6qmK6lkQtzPkN" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/lang/parsers/kinopoisk_files/VTF18z9eO3vPgPzzCRV62sRjsWTKZx6D88-lKecv3n2Wjej8r9XQ-KvGdCH79id45965dpPu92N6b1TBTk49Nzk9aJ5SRlJDY5m8j01IXl7wFpEgx4vaM4LGgHUaX7NNktGZ-APFqKivwhzlOzKf1FdPTZobels7aidQEVJiYSY5VXS3OioLg37QOLttgPb2CB4hwbc7-iM" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/lang/parsers/kinopoisk_files/VTF18z9eO3vPgPzzCRV62sRjsWTKZx6D88-lKecv3n2Wjej8r9XQ-KvGdCH79id45965dpPu92N6b1TBTk49Nzk9aJ5SRlJDY5m8j01IXl7wFpEgx4vaM4LGgHUaX7NNktGZ-Ofl2NyvwhzlOzKf1FdPTZobels7aidQEVJiYSY5VXS3OioLg37QOLttgPb2CB4hwbc7-iM" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/lang/parsers/kinopoisk_files/VTF18z9eO3vPgPzzCRV62sRjsWTKZx6D88-lKecv3n2Wjej8r9XQ-KvGdCH79id45965dpPu92N6b1TBTk49Nzk9aJ5SRlJDY5m8j01IXl7wFpEgx4vaM4LGgHUaXw8FwtlgwMfl8P3bu2gxi0rn2C97eYJPen_DjiY0YE52eV45MQS-Tk9nN9csBaPtAAJ6ZCZVBSuzAsc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/lang/parsers/kinopoisk_files/VTF18z9eO3vPgPzzCRV62sRjsWTKZx6D88-lKecv3n2Wjej8r9XQ-KvGdCH79id45965dpPu92N6b1TBTk49Nzk9aJ5SRlJDY5m8j01IXl7wFpEgx4vaM4LGgHUaXw9B2uHk1EvF0M2P_hxI_55XoFd3AbZ7YivDqt7QYSoHZUohSQTaPkYTUruYrF_QGIL6kKo5PV93nk_" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/lang/parsers/kinopoisk_files/VTF18z9eO3vPgPzzCRV62sRjsWTKZx6D88-lKecv3n2Wjej8r9XQ-KvGdCH79id45965dpPu92N6b1TBTk49Nzk9aJ5SRlJDj5y1nmRBCuuUOoEhn1ZmqoK79ECKOpNMtsmYiAM9bG0fFuzRYyq_5Pev2Aar-ttbdkZMcVtiFTL5jDhaGiLHy5cI1A_FKCIqVPqdMVtPonu" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/lang/parsers/kinopoisk_files/VTF18z9eO3vPgPzzCRV62sRjsWTKZx6D88-lKecv3n2Wjej8r9XQ-KvGdCH79id45965dpPu92N6b1TBTk49Nzk9aJ5SRlJDj5y1nnEBAvOIOp09ngZT6pan8RyKO-NYtsmYiAM9bG0fFuzRYyq_5Pev2Aar-ttbdkZMcVtiFTL5jDhaGiLHy5cI1A_FKCIqVPqdMVtPonu" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/lang/parsers/kinopoisk_files/VTF18z9eO3vPgPzzCRV62sRjsWTKZx6D88-lKecv3n2Wjej8r9XQ-KvGdCH79id45965dpPu92N6b1TBTk49Nzk9aJ5SRlJDj5y1nzkIU6eRb9Eljg8qsqv6sRyKLrYQtsmYiAM9bG0fFuzRYyq_5Pev2Aar-ttbdkZMcVtiFTL5jDhaGiLHy5cI1A_FKCIqVPqdMVtPonu" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/lang/parsers/kinopoisk_files/VTF18z9eO3vPgPzzCRV62sRjsWTKZx6D88-lKecv3n2Wjej8r9XQ-KvGdCH79id45965dpPu92N6b1TBTk49Nzk9aJ5SRlJDj5y1nzkJI7bVd-0lkjsmt8Kr9QyWNrIEtsmYiAM9bG0fFuzRYyq_5Pev2Aar-ttbdkZMcVtiFTL5jDhaGiLHy5cI1A_FKCIqVPqdMVtPonu" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/lang/parsers/kinopoisk_files/VTF18z9eO3vPgPzzCRV62sRjsWTKZx6D88-lKecv3n2Wjej8r9XQ-KvGdCH79id45965dpPu92N6b1TBTk49Nzk9aJ5SRlJDj_CsmwFVf7ecOoRsz0Miqpv2oESfdqYE05XdkaaIpODD8xVYotYKOf6u2SqWl65fJmswLD8bGX4MMTyOFwJPcuPc8cYVMA4eLLYJoXvn-gN" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/lang/parsers/kinopoisk_files/VTF18z9eO3vPgPzzCRV62sRjsWTKZx6D88-lKecv3n2Wjej8r9XQ-KvGdCH79id45965dpPu92N6b1TBTk49Nzk9aJ5SRlJDj_CsmwFVf7rJU-xtl0sqvpayrFXHaq4YwtXM3b_EiOWH4klMhvt-Cffi4TqTz7JfJyMhWCJPPCtMEHXHWyZWGtvI_KYVMA4eLLYJoXvn-gN" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/lang/parsers/kinopoisk_files/VTF18z9eO3vPgPzzCRV62sRjsWTKZx6D88-lKecv3n2Wjej8r9XQ-KvGdCH79id45965dpPu92N6b1TBTk49Nzk9aJ5SRlJDj_CsmwFVf7rJU-xtl0sqvpayrFXHaq4YwtXM3b_EiOWH4klMhvt-Cffi4TqTz7OburalBDsGTX4cESySCmcaLs6BqLJ4eR-36BrB1Xvfti8" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/lang/parsers/kinopoisk_files/VTF18z9eO3vPgPzzCRV62sRjsWTKZx6D88-lKecv3n2Wjej8r9XQ-KvGdCH79id45965dpPu92N6b1TBTk49Nzk9aJ5SRlJDj_CsmwFVf7udU-0wxgZrwoKSrHSPeq4Q6siRgaKV-OzD7kVMjvYOPKamzGPSh4ZeUz8IKCpPPANcLHiPRm8SL5KA4LIVMA4eLLYJoXvn-gN" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/lang/parsers/kinopoisk_files/VTF18z9eO3vPgPzzCRV62sRjsWTKZx6D88-lKecv3n2Wjej8r9XQ-KvGdCH79id45965dpPu92N6b1TBTk49Nzk9aJ5SRlJDj_CsmwFVfu7sBrkVvxYKv8f-qECiMr9Y65S1jO6h8ODCqxUh7_rnoC93DcI7Fkf7ksI0YSticUI9TXimJi5yR8uEBF4t2FqiSIaZ8av32pe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/lang/parsers/kinopoisk_files/VTF18z9eO3vPgPzzCRV62sRjsWTKZx6D88-lKecv3n2Wjej8r9XQ-KvGdCH79id45965dpPu92N6b1TBTk49Nzk9aJ5SRlJDj_CsmwFVfueZVok82hp_n86-qFSGLq4o1tSYwaqcpbDWqxFQ_55XoFd3AbZ7YivDqt7QYSoHZUohSQTaPkYTUruYrF_QGIL6kKo5PV93nk_" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/lang/parsers/kinopoisk_files/VTF18z9eO3vPgPzzCRV62sRjsWTKZx6D88-lKecv3n2Wjej8r9XQ-KvGdCH79id45965dpPu92N6b1TBTk49Nzk9aJ5SRlJDj_CsmwFVfueZa8B81j5mvoP6oESParoA6t3Bia6ItOz2jlQd0uNOCKa3iGaKl6peVmplcDpfPXdZaG3aBzsKPtfBnfYVMA4eLLYJoXvn-gN" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/lang/parsers/kinopoisk_files/VTF18z9eO3vPgPzzCRV62sRjsWTKZx6D88-lKecv3n2Wjej8r9XQ-KvGdCH79id45965dpPu92N6b1TBTk49Nzk9aJ5SRlJDj_CsmwFVfueZa8B81j5mvoP6oESParoA6t3Bia6ItOz2jlQd0uNOCKa3iGaKl6uburalBC8eTCtNfTSfZypKH4a08ep8QQL76BrB1Xvfti8" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/lang/parsers/kinopoisk_files/VTF18z9eO3vPgPzzCRV62sRjsWTKZx6D88-lKecv3n2Wjej8r9XQ-KvGdCH79id45965dpPu92N6b1TBTk49Nzk9aJ5SRlJDj_CsmwFVfueZaoh42gMj7ov78FyfdpdM14yNpbKQjPjCvx14j7NGGfKS5HfWk6JfInZlWW8KRDoAFS3-BnMCNsfY_eYVMA4eLLYJoXvn-gN" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/lang/parsers/kinopoisk_files/VTF18z9eO3vPgPzzCRV62sRjsWTKZx6D88-lKecv3n2Wjej8r9XQ-KvGdCH79id45965dpPu92N6b1TBTk49Nzk9aJ5SRlJDj_CsmwFVfvOMP9Bkwgp2spaT9QCTe-Ndhs3RmaqR7P2b_x1Yn7oWFfq3nH6Ki7JfOy8xYCcbCW9ReS3DRz8SJ5a07KoVMA4eLLYJoXvn-gN" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/lang/parsers/kinopoisk_files/VTF18z9eO3vPgPzzCRV62sRjsWTKZx6D88-lKecv3n2Wjej8r9XQ-KvGdCH79id45965dpPu92N6b1TBTk49Nzk9aJ5SRlJDj_CsmwFVfvqYNrk922d6ivP2oFiPZ-dMz6CFlPPIjbjyokQUho4zEFcPAboPIl-vkubMhSoGAF4pVQCmQl57M67osPfR5UIiyHIVnZODHgs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/lang/parsers/kinopoisk_files/VTF18z9eO3vPgPzzCRV62sRjsWTKZx6D88-lKecv3n2Wjej8r9XQ-KvGdCH79id45965dpPu92N6b1TBTk49Nzk9aJ5SRlJDp-T8vzlVfsKENtE9om8_xo674FXaApdE25idhb6d5O2Gux1Ujv9-Ef__iFvfy9srbmaUwfLe1Zq5uZwGptoDI97o1IcVJALe9H6gEc8Pzlr" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/lang/parsers/kinopoisk_files/VTF18z9eO3vPgPzzCRV62sRjsWTKZx6D88-lKecv3n2Wjej8r9XQ-KvGdCH79id45965dpPu92N6b1TBTk49Nzk9aJ5SRlJDp-T8vzlVfuaQcr08sgJXwq6z9HSDe-IFitHFoZ6V5aTOvkQcgvoTTL662HvK5q8_KoaUufLSodrN1aQ-uj4DIrv83JsRWH7GnB-1YdOnz6c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/lang/parsers/kinopoisk_files/VTF18z9eO3vPgPzzCRV62sRjsWTKZx6D88-lKecv3n2Wjej8r9XQ-KvGdCH79id45965dpPu92N6b1TBTk49Nzk9aJ5SRlJDy4TA8wksV96MJoVpg1cfkpa6rFSfa-YAw5HYwOad_ODWixVQ_55XoFd3AbZ7YivDqt7QYSoHZUohSQTaPkYTUruYrF_QGIL6kKo5PV93nk_" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/lang/parsers/kinopoisk_files/VTF18z9eO3vPgPzzCRV62sRjsWTKZx6D88-lKecv3n2Wjej8r9XQ-KvGdCH79id45965dpPu92N6b1TBTk49Nzk9aJ5SRlJDy4TA8wksV96QDr1Nn38Cl4bH_HCPe-YIwsyRhOfYtbzGtkgcjucjdOcPeboDVh_b_t70mc4GATs9XRyiPiJjW8_9wOt55L_iECrNsTNP6ot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/lang/parsers/kinopoisk_files/VTF18z9eO3vPgPzzCRV62sRjsWTKZx6D88-lKecv3n2Wjej8r9XQ-KvGdCH79id45965dpPu92N6b1TBTk49Nzk9aJ5SRlJDy4TA8wksV97kNqkQs05r7q6X_ESXcropnsCdnPqUpOWe0nhVO0qf2CMPOfYjQkffaiY1BVp-ZVpFTRzWL1oXK38t-GM1WNpWxOqhhW9rUm9" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/lang/parsers/kinopoisk_files/VTF18z9eO3vPgPzzCRV62sRjsWTKZx6D88-lKecv3n2Wjej8r9XQ-KvmbC3ziiJo56OBbqPT3y8ifmRsSx8EX2RIYaZKdltz0uSkh305dvLsB7Udo2IKj4cPGZFH6w_1RmFIYEedtLSvxnQh-_YneOfevXbTIh5n9mIopcJOhUqpmQj6yuaXb5sM7DPxUAp--IoBAYu_ihf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/lang/parsers/kinopoisk_files/VTF18z9eO3vPgPzzCRV62sRjsWWnX3qygs-pNccr5nGmiSg4e0VgFSsi9IVjDkcA9supGr_io1sSNkUFPg6hmwWxINqa1kunr3wQk03QxirAKlE9F4d671fbXZnrbxfxPvkQUDOBjI2PfmB9C74zyEM7ERor-oNzgtII3aJWSUKtNRzSSmpDP4v4xLMl1IbCVC65Mb93Nnv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/lang/parsers/kinopoisk_files/VTF18z9eO3vPgPzzCRV62sRjsWmLZyKy98fxBedmz3mywcTQtvnApWsW1J1PSqeUD28hhtuCvl8aXlABNmZ5KihJcM7-n1-_m5BgFznAbk44Au3hA5MivxfndcmLK29hNkn8yBt5WNVTfpxZo9IDyJuXSTavSguvol7EGRZO6c5lkeyWFkb3O6eYsKsxWErK7CKF5UN7trv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/lang/parsers/kinopoisk_files/VTF18z9eO3vPgPzzCRV62sRjsWmLZyKy9_f1Df8Cz3mywcTQtz3s-Z7SeFU7Sp_YIw859iNCR99qJjUFWn5lWkVNHNYvWhcrfy34YzVY2lbE6qGFb2tSb0879Q0fd2OVxo1I7EdNwOVzUuAlAyLXHM-Xnaq3ui9vHu6A9eJ-8UJlZYwyYoKLc5f0UOcJUArqzHKFAbtLOms" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/lang/parsers/kinopoisk_files/VTF18z9eO3vPgPzzCRV62sRjsWmLZyKy__uxLdNT5wSzhO2BmpC51Z_uaCHT_lZkg795wgNaa5uKssyh0uIBOlhJFL46Xh9Dp5zVm2VMvh_Qepkloz9iw4OT9QHzS8N1xpnI3LftrPWD0lR9g6ZbPMvDjRKf8rNHfmYkaTI6dSIheXyCHiJHe9uI8ONlCEryxDq5PdcXEq-" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/lang/parsers/kinopoisk_files/VTF18z9eO3vPgPzzCRV62sRjsWy7dxaf97PZMY9OxxWq1cjQr4zU-bOmASXXkldQl6uRduLir3cbTlgBckpJLz1FHKM6ShODf1R8K9GkikZMljV12wYKi-_L2VX_R79kto2AOALBKPHXcuQNH5q3tJuTTbpPzvu7Iuq0dT7Gdd6JWTR-utJjuxccuMdJANbStP6FAROz-jP" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/lang/parsers/kinopoisk_files/VTF18z9eW0a7tPybPQwj2phnsS2XQw7G9rqwUJYmknWS0YRMq_HF1c6jLAn2wjsM-7PIK8tb9i-vbyClKgYAXilVAKZCXnszruiw9jhQ2vr0Arg8z8JX_q628F1ae-NN3tChjb6IqdzSo2VYg2dSGb6_AHvGy6_iYxtRcDs7SC6MMHWPTucePpuQ6dZoAALy8UfscNZDcre" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/lang/parsers/kinopoisk_files/VTF18z9eW0a7tPybPQwj2phnsWXjF2Kz_s_pKfsz5yneOdDU9vnApWsW1J1PSqeUD28hhtuCvl8aXlABNmZ5KihJcM7-n1-_m5BgFznAbk44Au3hA5MivxfndcmLK29hNkn8yBt5WNVTfpxZo9IDyJuXSTavSguvol7EGRZO6c5lkeyWFkb3O6eYsKsxWErK7CKF5UN7trv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/lang/parsers/kinopoisk_files/VTF18z9ea2-G6NSHFSQC3vR-oBHPDg6LisfRBcZbx223_fyIAz1sbR8W7NFjKr_k96_YBqv621t2RkxxW2IVMvmMOFoaIsfLlwjUD8UoIipU-p0xW0-ie4O7eT1779tFan1k-DtVJKnzjkiN99LXVINnbfYT-k9DVm7clRa6iWoRVZDeJioXd5-Q8IsRCEouFBIJNbNDCov" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/lang/parsers/kinopoisk_files/awardOscar.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/lang/parsers/kinopoisk_files/flag-1.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/lang/parsers/kinopoisk_files/flag-3.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/lang/parsers/kinopoisk_files/flag-8.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/lang/parsers/kinopoisk_files/native-transport.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/lang/parsers/kinopoisk_files/saved_resource.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/lang/parsers/kinopoisk_files/svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/lang/parsers/kinopoisk_files/svg(1)" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/lang/parsers/kinopoisk_files/svg(2)" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/lang/parsers/kinopoisk_files/svg(3)" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/lang/parsers/parser.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/lang/parsers/parserlib/simple_html_dom.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Actions/Fortify/CreateNewUser.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Actions/Fortify/CreateNewUser.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Parsers/Parser.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Parsers/Parser.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Parsers/parsertests.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Parsers/parsertests.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/header.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/header.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/info.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/info.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/auth/login.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/auth/login.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/auth/register.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/auth/register.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/header.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/header.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/movie.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/movie.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -131,6 +42,11 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JsbtTreeLayoutManager">
+    <layout place="tools.popupnpm">
+      <scroll-view-position x="0" y="0" />
+    </layout>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP">
     <include_path>
@@ -276,7 +192,7 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/Http/Controllers" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../LaravelRegistration" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -305,7 +221,7 @@
       <recent name="C:\MoviesRecords\public\movies" />
     </key>
   </component>
-  <component name="RunManager" selected="PHP Script.Parser.php (1)">
+  <component name="RunManager" selected="PHP Script.parsertests.php">
     <configuration name="phpunit.xml" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
       <TestRunner scope="XML" />
       <method v="2" />
@@ -339,8 +255,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="PHP Script.Parser.php (1)" />
         <item itemvalue="PHP Script.parsertests.php" />
+        <item itemvalue="PHP Script.Parser.php (1)" />
         <item itemvalue="PHP Script.parser.php" />
         <item itemvalue="PHP Script.Parser1.php" />
         <item itemvalue="PHP Script.Parser.php" />
@@ -369,7 +285,9 @@
       <workItem from="1607785225588" duration="5603000" />
       <workItem from="1607868735738" duration="25425000" />
       <workItem from="1608303363577" duration="19737000" />
-      <workItem from="1608562115553" duration="26433000" />
+      <workItem from="1608562115553" duration="35121000" />
+      <workItem from="1608902979901" duration="34848000" />
+      <workItem from="1609146049510" duration="13412000" />
     </task>
     <servers />
   </component>
