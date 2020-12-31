@@ -18,16 +18,11 @@ use Illuminate\Support\Facades\Auth;
 | contains the "web" middleware group. Now create something great!
 |
 */
-Auth::routes([]);
 Route::get('/', [SiteController::class, 'index']);
+//Route::get('/register', [SiteController::class, 'register']);
 Route::get('/getmovie', [SiteController::class, 'getmovie']);
 Route::get('/{name}',[Profile::class, 'profile']);
 Route::get('/movie/{url}', [SiteController::class, 'movie']);
-
-
-Route::get('/email/verify', function () {
-    return view('auth.verify-email');
-})->middleware(['auth'])->name('verification.notice');
 
 
 

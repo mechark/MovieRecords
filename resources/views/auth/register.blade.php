@@ -1,6 +1,6 @@
 @extends('header')
 
-<!doctype html>
+    <!doctype html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -12,27 +12,40 @@
 </head>
 <body>
 @section('content')
+
     <div class="content">
-    <form action="{{ route('register') }}">
-    <main class="main">
-        <h1 class="main__title">Создание вашего аккаунта</h1>
-    <div class="form">
-        @csrf
-        <label for="email">Email <span>*</span></label> <br>
-        <input type="email" name="email"> <br>
-        <label for="text">Имя пользователя <span>*</span></label><br>
-        <input type="text" name="name"><br>
-        <label for="password" >Пароль <span>*</span></label><br>
-        <input type="password" name="password">
-        <label for="password" >Подтвердите пароль <span>*</span></label><br>
-        <input type="password" name="confirm">
-        <p class="main__feature">Пароль должен содержать не менее 8 символов</p>
-        <button class="main__btn" formaction=" {{ __('register') }}">
-            <span>Зарегистрироваться</span>
-        </button>
-    </div>
-</main>
-</form>
+        <form method="POST" action="{{ route('register') }}">
+            <main class="main">
+                <h1 class="main__title">Создание вашего аккаунта</h1>
+                <div class="form">
+                    @csrf
+                    <label for="email">Email <span>*</span></label> <br>
+                    <input type="email" id="email" name="email"> <br>
+                    @error('email')
+                    <p style="color:red;"> {{ $message }} </p>
+                    @enderror
+                    <label for="name">Имя пользователя <span>*</span></label><br>
+                    <input type="text" id="name" name="name"><br>
+                    @error('name')
+                    <p style="color:red;"> {{ $message }} </p>
+                    @enderror
+                    <label for="password">Пароль <span>*</span></label><br>
+                    <input type="password" id="password" name="password">
+                    @error('password')
+                    <p style="color:red;"> {{ $message }} </p>
+                    @enderror
+                    <label for="password_confirmation">Подтвердите пароль <span>*</span></label><br>
+                    <input type="password" id="password_confirmation" name="password_confirmation">
+                    @error('password_confirmation')
+                    <p style="color:red;"> {{ $message }} </p>
+                    @enderror
+                    <p class="main__feature">Пароль должен содержать не менее 8 символов</p>
+                    <button class="main__btn" type="submit">
+                        <span>Зарегистрироваться</span>
+                    </button>
+                </div>
+            </main>
+        </form>
     </div>
 
 @endsection

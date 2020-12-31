@@ -14,10 +14,7 @@
 
     @section('content')
 
-        <button>
-            {{ \Illuminate\Support\Facades\Auth::logout() }}
-            Logout
-        </button>
+
 
     @endsection
 </body>

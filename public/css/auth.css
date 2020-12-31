@@ -90,9 +90,17 @@ label span {
     font-weight: 500;
     background-color: #525252;
     color:#fff;
+    caret-color: #fff;
+    padding-left: .5em;
 }
 
 .form input:focus {
     border: 1px ridge #777777;
-    opacity:75%;
+}
+
+
+@media(max-width: 560px) {
+    .main {
+        width: 90%;
+    }
 }

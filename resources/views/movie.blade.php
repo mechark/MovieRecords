@@ -40,6 +40,9 @@
                 </ul>
             </div>
         </div>
+        <div class="main__card-title">
+            <h2>Сюжет</h2>
+        </div>
         <p class="main__card-description">
             {{ $url[0]->description }}
         </p>

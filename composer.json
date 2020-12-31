@@ -9,10 +9,13 @@
     "license": "MIT",
     "require": {
         "php": "^7.3",
+        "ext-curl": "*",
+        "ext-zlib": "*",
         "fabpot/goutte": "^4.0",
         "fideloper/proxy": "^4.2",
         "fruitcake/laravel-cors": "^2.0",
         "ivopetkov/html5-dom-document-php": "2.*",
+        "laravel/fortify": "^1.7",
         "laravel/framework": "^8.0",
         "laravel/jetstream": "^1.6",
         "laravel/sanctum": "^2.6",
@@ -21,9 +24,7 @@
         "livewire/livewire": "^2.0",
         "nikic/php-parser": "^4.10",
         "paquettg/php-html-parser": "^3.1",
-        "sunra/php-simple-html-dom-parser": "^1.5",
-      "ext-curl": "*",
-      "ext-zlib": "*"
+        "sunra/php-simple-html-dom-parser": "^1.5"
     },
     "require-dev": {
         "facade/ignition": "^2.3.6",

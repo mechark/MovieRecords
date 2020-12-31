@@ -33,7 +33,7 @@
 
                 <li><a href="">Избранное</a></li>
                 <li><a href="">Рекомендации</a></li>
-                <li><a href="">Выход</a></li>
+                <li><a href="{{ \Illuminate\Support\Facades\Auth::logout() }}">Выход</a></li>
             </ul>
         </div>
     </nav>

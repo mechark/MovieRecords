@@ -42,6 +42,7 @@ class SiteController extends Controller
         $parser = new Parser;
         $parser->getInfo();
     }
+
 }
 
 

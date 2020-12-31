@@ -6,21 +6,119 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a621336f-bc1d-4135-8391-2bfdab36a0bb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/public/css/auth.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/favicon.ico" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Actions/Fortify/CreateNewUser.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Actions/Fortify/CreateNewUser.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Parsers/Parser.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Parsers/Parser.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Parsers/parsertests.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Parsers/parsertests.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/SiteController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/SiteController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Providers/FortifyServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Providers/FortifyServiceProvider.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/header.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/header.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/app.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/fortify.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/fortify.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/auth.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/auth.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/css/info.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/info.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/auth/login.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/auth/login.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/auth/register.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/auth/register.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/header.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/header.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/index.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/movie.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/movie.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/profile.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/profile.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/ClassLoader.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/ClassLoader.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/InstalledVersions.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/InstalledVersions.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_files.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_files.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_namespaces.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_namespaces.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_real.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_real.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_static.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_static.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/installed.json" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/installed.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/installed.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/installed.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/platform_check.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/platform_check.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/laravel/fortify/LICENSE.md" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/laravel/fortify/LICENSE.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/laravel/fortify/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/laravel/fortify/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/laravel/fortify/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/laravel/fortify/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/laravel/fortify/config/fortify.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/laravel/fortify/config/fortify.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/laravel/fortify/database/migrations/2014_10_12_200000_add_two_factor_columns_to_users_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/laravel/fortify/database/migrations/2014_10_12_200000_add_two_factor_columns_to_users_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/laravel/fortify/routes/routes.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/laravel/fortify/routes/routes.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/laravel/fortify/src/Actions/AttemptToAuthenticate.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/laravel/fortify/src/Actions/AttemptToAuthenticate.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/laravel/fortify/src/Actions/CompletePasswordReset.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/laravel/fortify/src/Actions/CompletePasswordReset.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/laravel/fortify/src/Actions/ConfirmPassword.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/laravel/fortify/src/Actions/ConfirmPassword.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/laravel/fortify/src/Actions/DisableTwoFactorAuthentication.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/laravel/fortify/src/Actions/DisableTwoFactorAuthentication.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/laravel/fortify/src/Actions/EnableTwoFactorAuthentication.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/laravel/fortify/src/Actions/EnableTwoFactorAuthentication.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/laravel/fortify/src/Actions/EnsureLoginIsNotThrottled.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/laravel/fortify/src/Actions/EnsureLoginIsNotThrottled.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/laravel/fortify/src/Actions/GenerateNewRecoveryCodes.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/laravel/fortify/src/Actions/GenerateNewRecoveryCodes.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/laravel/fortify/src/Actions/PrepareAuthenticatedSession.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/laravel/fortify/src/Actions/PrepareAuthenticatedSession.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/laravel/fortify/src/Actions/RedirectIfTwoFactorAuthenticatable.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/laravel/fortify/src/Actions/RedirectIfTwoFactorAuthenticatable.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/laravel/fortify/src/Contracts/ConfirmPasswordViewResponse.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/laravel/fortify/src/Contracts/ConfirmPasswordViewResponse.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/laravel/fortify/src/Contracts/CreatesNewUsers.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/laravel/fortify/src/Contracts/CreatesNewUsers.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/laravel/fortify/src/Contracts/FailedPasswordConfirmationResponse.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/laravel/fortify/src/Contracts/FailedPasswordConfirmationResponse.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/laravel/fortify/src/Contracts/FailedPasswordResetLinkRequestResponse.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/laravel/fortify/src/Contracts/FailedPasswordResetLinkRequestResponse.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/laravel/fortify/src/Contracts/FailedPasswordResetResponse.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/laravel/fortify/src/Contracts/FailedPasswordResetResponse.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/laravel/fortify/src/Contracts/FailedTwoFactorLoginResponse.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/laravel/fortify/src/Contracts/FailedTwoFactorLoginResponse.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/laravel/fortify/src/Contracts/LockoutResponse.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/laravel/fortify/src/Contracts/LockoutResponse.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/laravel/fortify/src/Contracts/LoginResponse.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/laravel/fortify/src/Contracts/LoginResponse.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/laravel/fortify/src/Contracts/LoginViewResponse.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/laravel/fortify/src/Contracts/LoginViewResponse.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/laravel/fortify/src/Contracts/LogoutResponse.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/laravel/fortify/src/Contracts/LogoutResponse.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/laravel/fortify/src/Contracts/PasswordConfirmedResponse.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/laravel/fortify/src/Contracts/PasswordConfirmedResponse.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/laravel/fortify/src/Contracts/PasswordResetResponse.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/laravel/fortify/src/Contracts/PasswordResetResponse.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/laravel/fortify/src/Contracts/RegisterResponse.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/laravel/fortify/src/Contracts/RegisterResponse.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/laravel/fortify/src/Contracts/RegisterViewResponse.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/laravel/fortify/src/Contracts/RegisterViewResponse.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/laravel/fortify/src/Contracts/RequestPasswordResetLinkViewResponse.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/laravel/fortify/src/Contracts/RequestPasswordResetLinkViewResponse.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/laravel/fortify/src/Contracts/ResetPasswordViewResponse.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/laravel/fortify/src/Contracts/ResetPasswordViewResponse.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/laravel/fortify/src/Contracts/ResetsUserPasswords.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/laravel/fortify/src/Contracts/ResetsUserPasswords.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/laravel/fortify/src/Contracts/SuccessfulPasswordResetLinkRequestResponse.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/laravel/fortify/src/Contracts/SuccessfulPasswordResetLinkRequestResponse.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/laravel/fortify/src/Contracts/TwoFactorAuthenticationProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/laravel/fortify/src/Contracts/TwoFactorAuthenticationProvider.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/laravel/fortify/src/Contracts/TwoFactorChallengeViewResponse.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/laravel/fortify/src/Contracts/TwoFactorChallengeViewResponse.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/laravel/fortify/src/Contracts/TwoFactorLoginResponse.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/laravel/fortify/src/Contracts/TwoFactorLoginResponse.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/laravel/fortify/src/Contracts/UpdatesUserPasswords.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/laravel/fortify/src/Contracts/UpdatesUserPasswords.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/laravel/fortify/src/Contracts/UpdatesUserProfileInformation.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/laravel/fortify/src/Contracts/UpdatesUserProfileInformation.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/laravel/fortify/src/Contracts/VerifyEmailViewResponse.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/laravel/fortify/src/Contracts/VerifyEmailViewResponse.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/laravel/fortify/src/Features.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/laravel/fortify/src/Features.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/laravel/fortify/src/Fortify.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/laravel/fortify/src/Fortify.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/laravel/fortify/src/FortifyServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/laravel/fortify/src/FortifyServiceProvider.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/laravel/fortify/src/Http/Controllers/AuthenticatedSessionController.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/laravel/fortify/src/Http/Controllers/AuthenticatedSessionController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/laravel/fortify/src/Http/Controllers/ConfirmablePasswordController.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/laravel/fortify/src/Http/Controllers/ConfirmablePasswordController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/laravel/fortify/src/Http/Controllers/ConfirmedPasswordStatusController.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/laravel/fortify/src/Http/Controllers/ConfirmedPasswordStatusController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/laravel/fortify/src/Http/Controllers/EmailVerificationNotificationController.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/laravel/fortify/src/Http/Controllers/EmailVerificationNotificationController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/laravel/fortify/src/Http/Controllers/EmailVerificationPromptController.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/laravel/fortify/src/Http/Controllers/EmailVerificationPromptController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/laravel/fortify/src/Http/Controllers/NewPasswordController.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/laravel/fortify/src/Http/Controllers/NewPasswordController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/laravel/fortify/src/Http/Controllers/PasswordController.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/laravel/fortify/src/Http/Controllers/PasswordController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/laravel/fortify/src/Http/Controllers/PasswordResetLinkController.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/laravel/fortify/src/Http/Controllers/PasswordResetLinkController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/laravel/fortify/src/Http/Controllers/ProfileInformationController.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/laravel/fortify/src/Http/Controllers/ProfileInformationController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/laravel/fortify/src/Http/Controllers/RecoveryCodeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/laravel/fortify/src/Http/Controllers/RecoveryCodeController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/laravel/fortify/src/Http/Controllers/RegisteredUserController.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/laravel/fortify/src/Http/Controllers/RegisteredUserController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/laravel/fortify/src/Http/Controllers/TwoFactorAuthenticatedSessionController.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/laravel/fortify/src/Http/Controllers/TwoFactorAuthenticatedSessionController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/laravel/fortify/src/Http/Controllers/TwoFactorAuthenticationController.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/laravel/fortify/src/Http/Controllers/TwoFactorAuthenticationController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/laravel/fortify/src/Http/Controllers/TwoFactorQrCodeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/laravel/fortify/src/Http/Controllers/TwoFactorQrCodeController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/laravel/fortify/src/Http/Controllers/VerifyEmailController.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/laravel/fortify/src/Http/Controllers/VerifyEmailController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/laravel/fortify/src/Http/Requests/LoginRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/laravel/fortify/src/Http/Requests/LoginRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/laravel/fortify/src/Http/Requests/TwoFactorLoginRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/laravel/fortify/src/Http/Requests/TwoFactorLoginRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/laravel/fortify/src/Http/Requests/VerifyEmailRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/laravel/fortify/src/Http/Requests/VerifyEmailRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/laravel/fortify/src/Http/Responses/FailedPasswordConfirmationResponse.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/laravel/fortify/src/Http/Responses/FailedPasswordConfirmationResponse.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/laravel/fortify/src/Http/Responses/FailedPasswordResetLinkRequestResponse.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/laravel/fortify/src/Http/Responses/FailedPasswordResetLinkRequestResponse.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/laravel/fortify/src/Http/Responses/FailedPasswordResetResponse.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/laravel/fortify/src/Http/Responses/FailedPasswordResetResponse.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/laravel/fortify/src/Http/Responses/FailedTwoFactorLoginResponse.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/laravel/fortify/src/Http/Responses/FailedTwoFactorLoginResponse.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/laravel/fortify/src/Http/Responses/LockoutResponse.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/laravel/fortify/src/Http/Responses/LockoutResponse.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/laravel/fortify/src/Http/Responses/LoginResponse.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/laravel/fortify/src/Http/Responses/LoginResponse.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/laravel/fortify/src/Http/Responses/LogoutResponse.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/laravel/fortify/src/Http/Responses/LogoutResponse.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/laravel/fortify/src/Http/Responses/PasswordConfirmedResponse.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/laravel/fortify/src/Http/Responses/PasswordConfirmedResponse.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/laravel/fortify/src/Http/Responses/PasswordResetResponse.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/laravel/fortify/src/Http/Responses/PasswordResetResponse.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/laravel/fortify/src/Http/Responses/RegisterResponse.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/laravel/fortify/src/Http/Responses/RegisterResponse.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/laravel/fortify/src/Http/Responses/SimpleViewResponse.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/laravel/fortify/src/Http/Responses/SimpleViewResponse.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/laravel/fortify/src/Http/Responses/SuccessfulPasswordResetLinkRequestResponse.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/laravel/fortify/src/Http/Responses/SuccessfulPasswordResetLinkRequestResponse.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/laravel/fortify/src/Http/Responses/TwoFactorLoginResponse.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/laravel/fortify/src/Http/Responses/TwoFactorLoginResponse.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/laravel/fortify/src/LoginRateLimiter.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/laravel/fortify/src/LoginRateLimiter.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/laravel/fortify/src/RecoveryCode.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/laravel/fortify/src/RecoveryCode.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/laravel/fortify/src/Rules/Password.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/laravel/fortify/src/Rules/Password.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/laravel/fortify/src/TwoFactorAuthenticatable.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/laravel/fortify/src/TwoFactorAuthenticatable.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/laravel/fortify/src/TwoFactorAuthenticationProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/laravel/fortify/src/TwoFactorAuthenticationProvider.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/laravel/fortify/stubs/CreateNewUser.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/laravel/fortify/stubs/CreateNewUser.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/laravel/fortify/stubs/FortifyServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/laravel/fortify/stubs/FortifyServiceProvider.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/laravel/fortify/stubs/PasswordValidationRules.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/laravel/fortify/stubs/PasswordValidationRules.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/laravel/fortify/stubs/ResetUserPassword.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/laravel/fortify/stubs/ResetUserPassword.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/laravel/fortify/stubs/UpdateUserPassword.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/laravel/fortify/stubs/UpdateUserPassword.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/laravel/fortify/stubs/UpdateUserProfileInformation.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/laravel/fortify/stubs/UpdateUserProfileInformation.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/laravel/fortify/stubs/fortify.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/laravel/fortify/stubs/fortify.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -192,7 +290,7 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../LaravelRegistration" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/public/img" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -202,16 +300,16 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="terminal" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Blade" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\MoviesRecords\public\img" />
       <recent name="C:\MoviesRecords\app\Http\Controllers" />
       <recent name="C:\Shop\shop\resources\lang\parsers" />
       <recent name="C:\Shop\shop\node_modules\plyr\src\plyr.js" />
       <recent name="C:\Shop\shop\node_modules\plyr" />
-      <recent name="C:\Shop\shop\public\movies" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\MoviesRecords\app\Http\Controllers\Parsers" />

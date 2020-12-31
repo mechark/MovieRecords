@@ -1,6 +1,8 @@
 body {
     margin: 0;
     padding: 0;
+    background-color: #383838;
+    font-family: "Helvetica", 'sans-serif' ;
 }
 
 .main__card {
@@ -22,7 +24,8 @@ body {
 
 .main__card-title {
     width: 100%;
-    margin-top: 10vw;
+    /*margin-top: 10vw;*/
+    font-family: 'Rubik', sans-serif;
 }
 
 .main__card-title h2 {
@@ -39,6 +42,7 @@ body {
 
 .main__card-info {
     margin-left: 5.5vw;
+    padding: 2vw 1vw;
 }
 
 .main__card-info ul{
