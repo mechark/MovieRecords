@@ -16,9 +16,16 @@
 
     <main class="main">
 
-        <h1 class="main__filter">
+        <div class="main__filter">
             Фильтр
-        </h1>
+            <ul class="main__filter-dropdown" id="dropdown">
+                <li id="country" class="main__filter-dropdown">Страна</li>
+                <li id="director" class="main__filter-dropdown">Режиссёр</li>
+                <li id="rate" class="main__filter-dropdown">Оценка по IMDB</li>
+                <li id="year" class="main__filter-dropdown">Год</li>
+                <li id="actors" class="main__filter-dropdown">Актёры</li>
+            </ul>
+        </div>
         @foreach($film as $film)
             <div class="main__card">
                 <a href="{{'movie/'. $film->url }}">
@@ -59,6 +66,7 @@
 
     </main>
 @endsection
+<script src="js/index.js"></script>
 </body>
 </html>
 

@@ -1,3 +1,4 @@
+{{--@extends('header')--}}
 
     <!doctype html>
 <html lang="en">
@@ -10,12 +11,12 @@
     <link rel="stylesheet" href="{{ url('css/profile.css') }}">
 </head>
 <body>
-@extends('header')
 
-    @section('content')
+{{--    @section('content')--}}
+@if (\Illuminate\Support\Facades\Auth::check())
+    <h1 style="color: #383838">Hello, {{ $name }}</h1>
+@endif
 
-
-
-    @endsection
+{{--    @endsection--}}
 </body>
 </html>

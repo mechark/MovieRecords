@@ -3,12 +3,22 @@
 namespace App\Http\Controllers;
 
 use App\Models\Movie;
+use Illuminate\Support\Facades\View;
 use Illuminate\Support\Facades\Auth;
 use App\Http\Controllers\Parsers\Parser;
 
 class SiteController extends Controller
 {
-    public function index() {
+    public function index()
+    {
+
+        if (Auth::check()) {
+            $name = Auth::user()->name;
+            View::share('name',$name);
+        } else {
+            $name = '/login';
+            View::share('name',$name);
+        }
 
         $film = Movie::get();
 
@@ -16,7 +26,9 @@ class SiteController extends Controller
             'film' => $film,
         ]);
 
-    }
+
+
+        }
 
     public function movie($url) {
         $url = Movie::where('url',$url)->get();
@@ -30,17 +42,16 @@ class SiteController extends Controller
         return view('auth.register');
     }
 
-    public function header() {
-        $name = Auth::user()->name;
-        return view('header',[
-            'name'=>'paul',
-        ]);
-    }
-
     public function getmovie()
     {
         $parser = new Parser;
         $parser->getInfo();
+    }
+
+
+    public function profile()
+    {
+        return view('profile');
     }
 
 }

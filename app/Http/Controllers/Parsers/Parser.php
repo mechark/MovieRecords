@@ -150,7 +150,7 @@ class Parser
 //        foreach ($moviePages as $movieUrl) {
 
         // Парсер с curl
-        $page = file_get_html('https://kinogo.la/22987-1917_2019.html');
+        $page = file_get_html('https://kinogo.la/3508-besslavnye-ublyudki-2009-smotret-onlayn.html');
         $quality = [];
         array_push($quality, $page->find('h1')[0]->plaintext);
         $nameOfTheMovie = explode(" ", $quality[0]);
@@ -192,7 +192,7 @@ class Parser
             $IMDBRating = round($dom->find('.styles_value__3qmcr a')->text, 1);
             $budget = implode(" ", explode("&nbsp;", $dom->find('[data-tid=a189db02] a')[1]->text));
             $fees = implode(" ", explode("&nbsp;", $dom->find('[data-tid=712ca0f8] a')->text));
-            $src = $this->parserMovie('https://kinogo.la/22987-1917_2019.html')[3];
+            $src = $this->parserMovie('https://kinogo.la/22987-1917_2019.html');
 
             //print_r($src);
 //                print_r($description);

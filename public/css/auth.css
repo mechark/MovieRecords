@@ -6,7 +6,7 @@
 }
 
 body {
-    background-color: #383838;
+    background-color: #010409;
     /*background-color: #fff;*/
 
 }
@@ -81,21 +81,22 @@ label span {
     width: 100%;
     outline: none;
     border:none;
-    border: 1px solid #c3c3c3;
     border-radius: 5px;
     padding:10px 0;
     margin: 4px 0;
     font-family: 'Roboto', sans-serif;
     font-size: 18px;
     font-weight: 500;
-    background-color: #525252;
+    background-color: #0d1117;
     color:#fff;
     caret-color: #fff;
     padding-left: .5em;
 }
 
 .form input:focus {
-    border: 1px ridge #777777;
+    /*border: 1px ridge #777777;*/
+    border: 1px solid #c3c3c3;
+
 }
 
 

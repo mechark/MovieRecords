@@ -30,7 +30,7 @@ a {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color:#424242;
+    background-color:#0d1117;
     transition: all .25s ease-in;
 }
 
@@ -123,11 +123,11 @@ a {
     padding-bottom: 24px;
 }
 
-.search {
+#search {
     width: 95%;
     padding: 2vw 3vw;
     background-color: #191919;
-    border-radius: 10px;
+    border-radius: 5px;
     outline: none;
     border: none;
     margin:2.5vw;

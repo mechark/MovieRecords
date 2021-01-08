@@ -11,7 +11,7 @@
 
 
     @if (\Illuminate\Support\Facades\Auth::check())
-        <a class="nav__profile" href={{ '/profile' }}></a>
+        <a class="nav__profile" href={{ $name }}></a>
     @else
         <a class="nav__profile" href="/login"></a>
     @endif
@@ -24,13 +24,12 @@
             <span class="nav__menu line2"></span>
         </div>
         <div class="nav__list">
-            <form action="">
+            <form method="GET" action="/search" role="search">
                 @csrf
-                <input type="search" placeholder="Поиск..." class="search">
+                <input type="search" placeholder="Поиск..." id="search" name="retrieval">
             </form>
             <span class="nav__list-span"></span>
             <ul>
-
                 <li><a href="">Избранное</a></li>
                 <li><a href="">Рекомендации</a></li>
                 <li><a href="{{ \Illuminate\Support\Facades\Auth::logout() }}">Выход</a></li>
